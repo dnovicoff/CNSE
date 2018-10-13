@@ -1,0 +1,44 @@
+Machine:,10.71.225.41,TVLBMIJ02,test
+Machine:,10.71.225.34,DVLWAIJ02,dev
+Machine:,10.71.35.52,DVLPOIJ02,dev
+Machine:,10.71.35.59,PBLJBIJ02,prod
+Machine:,10.71.35.58,PBLJBIJ03,prod
+Machine:,10.71.35.61,TVLSFIJ01,test
+Machine:,10.108.52.49,CJS017PL5DB,prod
+Machine:,10.71.35.188,MVLMS01,management
+Machine:,10.71.35.57,DBLJBIJ02,dev
+Machine:,10.71.34.138,SVLWAIJ01,staging
+Machine:,10.71.35.41,PVLSFIJ01,prod
+Machine:,10.71.35.75,TVLAPFIN,test
+Machine:,10.71.34.139,SVLWAIJ02,staging
+Machine:,10.71.225.27,DVLPSIJ02,dev
+Machine:,10.71.34.178,PVLMS01,prod
+Machine:,10.71.34.186,PVLMS03,prod
+Machine:,10.71.34.184,PVLMS02,prod
+Machine:,10.71.34.54,DVLWSIJ05,dev
+Machine:,10.71.35.62,PVLFTP01,prod
+Machine:,10.71.35.40,MRLGP06,management
+Machine:,10.71.35.6,MVLNS01,management
+Machine:,10.71.225.40,TVLPSIJ02,test
+Machine:,10.108.244.152,CJS059DL5DB,dev
+Machine:,10.71.34.71,PRLDB06,prod
+Machine:,10.71.34.126,PRLDB05,prod
+Machine:,10.71.34.236,TVLGP08,test
+Machine:,10.71.35.227,MVLGP08,management
+Machine:,10.71.35.49,MVLGP03,management
+Machine:,10.71.34.55,PVLWSIJ05,prod
+Machine:,10.71.35.39,TVLAPP170,test
+Machine:,10.71.34.227,MRLGP01,management  (secondary nis)
+Machine:,10.71.35.77,DVLAPFIN,dev
+Machine:,10.71.34.155,MVLNS02,management
+Machine:,10.71.34.89,MRLMS04,management - turning off
+Machine:,10.71.34.216,MRLMS05,management - turning off
+Machine:,10.71.35.74,PVLAPFIN,prod
+Machine:,10.71.225.50,TVLPOIJ02,test
+Machine:,10.71.225.54,CJS031DL5BUSM,dev
+Machine:,10.71.35.64,DVLAPP170,dev
+Machine:,10.71.35.92,CJS004DL5APP,dev
+Machine:,10.71.35.91,MVLGP10,management
+Machine:,10.71.225.35,TVLWAIJ02,test
+Machine:,10.71.34.72,PVLFMS,prod
+Machine:,10.71.225.26,DVLMQIJ01,dev

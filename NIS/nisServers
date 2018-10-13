@@ -1,0 +1,5 @@
+MACHINE NAME,IP ADDRESS,WHEEL ENABLED
+CJS044PL5SFMail  10.108.68.180  mrlns01
+CJS045PL5HTP  10.108.68.181  mvlns02.dcjs.nys.gov
+MVLNS02  10.71.34.155  localhost.localdomain
+PVLAPP170  10.71.35.76  mvlns02.dcjs.nys.gov

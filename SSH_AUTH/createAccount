@@ -1,0 +1,51 @@
+#!/usr/bin/expect -f
+## wrapper to make passwd(1) be non-interactive
+## username is passed as 1st arg, passwd as 2nd
+#
+
+set fp [open "Linux-Servers-ITSM.csv"]
+set sshauth [split [read $fp] "\n"]
+close $fp
+
+set fp [open "rootpasswds.txt"]
+set passwords [split [read $fp] "\n"]
+close $fp
+
+array set pass {}
+foreach line $passwords  {
+	set parts [split $line "\t"]
+	set machine [lindex $parts 0]
+	set ip [lindex $parts 1]
+	set pword [lindex $parts 3]
+	
+	set pass($machine) $pword
+	## puts "$machine $pword"
+}
+
+set account [lindex $argv 0]
+set password [lindex $argv 1]
+
+foreach line $sshauth  {
+	set parts [split $line ","]
+	set machine [lindex $parts 0]
+	set ip [lindex $parts 4]
+	set ssh [lindex $parts 6]
+	set username "root"
+	if {$ssh == "SSH AUTH"}  {
+		set count $argc
+		if {[info exists pass($machine)]}  {
+			set passwd $pass($machine)
+			puts "$machine   $passwd"
+			while {$count ==  2}  {
+				set count 4
+	
+				spawn ssh -q $username@$ip $passwd
+				expect "password:"
+				send "$passwd\r"
+				expect ""
+				send "uname\r"
+				expect eof
+			}
+		}
+	}
+}

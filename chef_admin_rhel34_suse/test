@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+#
+#
+use strict;
+use warnings;
+
+sub run_command  {
+        my $label = shift;
+        my $command = shift;
+        my $output = qx($command);
+        chomp $output;
+        print "${label}=${output}\n";
+}
+
+sub run_command_release  {
+	my $label = shift;
+	my $command = shift;
+	my $output = qx($command);
+	chomp $output;
+	my @tmp = split(/\s/,$output);
+	print "${label}=${tmp[2]}\n";
+}
+
+run_command_release "LSB_RELEASE", "uname -a";
+

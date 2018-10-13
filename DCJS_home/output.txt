@@ -1,0 +1,117 @@
+113
+MACHINE NAME,IP ADDRESS,CONNECTION STATS
+HELLO: PRLDB06 10.71.34.71
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nisaliases:	files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: tvlsfij02 10.71.62.250
+ssh: connect to host 10.71.62.250 port 22: Connection timed out
+
+HELLO: FORAY SERVER 159.181.36.60
+ssh: connect to host 159.181.36.60 port 22: Connection timed out
+
+HELLO: PRLDB05 10.71.34.126
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nisaliases:	files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: PRLDB01 10.71.34.113
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+#passwd: files nis
+# shadow: files nis
+#group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: DRLDB03 10.71.34.114
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: DRLDB06 10.71.225.38
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+#automount:	files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: PATRIOT 159.181.33.26
+ssh: connect to host 159.181.33.26 port 22: Connection timed out
+
+HELLO: DVLAP02 10.71.34.107
+Permission denied (publickey,keyboard-interactive).
+
+HELLO: DRLDB05 10.71.34.199
+Permission denied (publickey,password,keyboard-interactive).
+
+HELLO: PRLDB03 10.71.34.118
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: Mvlsvcij01 10.71.62.251
+ssh: connect to host 10.71.62.251 port 22: Connection timed out
+
+HELLO: PRLDB02 10.71.34.191
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: DRLDG01 10.71.34.116
+Permission denied (publickey,keyboard-interactive,hostbased).
+
+HELLO: SRLDB01 10.71.34.193
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: PVLAP05 10.71.34.106
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: DVLAP04 10.71.34.137
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+ypwhich: Can't communicate with ypbind
+
+HELLO: pvlsfij02 10.71.62.249
+ssh: connect to host 10.71.62.249 port 22: Connection timed out
+
+HELLO: PRLDB04 10.71.225.37
+#       nisplus                 Use NIS+ (NIS version 3)
+#       nis                     Use NIS (NIS version 2), also called YP
+# passwd: files nis
+# shadow: files nis
+# group:  files nis
+#automount:	files nis
+ypwhich: Can't communicate with ypbind
+
+Count: 113

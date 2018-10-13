@@ -1,0 +1,8 @@
+/net    /etc/auto.net
+#/home   yp:auto.home
+#/home	/etc/auto_home
+/-	/etc/auto.home
+
+### /-	/etc/auto.direct	rw
+
+/opt/mgmt/repos /etc/auto.dchlinux --timeout 60

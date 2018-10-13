@@ -1,0 +1,83 @@
+YUM: Pid does not exits
+
+VAR: 
+NETWORK MANAGER: NetworkManager 	0:off	1:off	2:on	3:on	4:on	5:on	6:off
+
+SELinux: Disabled
+
+Repo File: /etc/yum.repos.d/CentOS-Base.repo
+Repo File: /etc/yum.repos.d/CentOS-Debuginfo.repo
+Repo File: /etc/yum.repos.d/CentOS-fasttrack.repo
+Repo File: /etc/yum.repos.d/CentOS-Media.repo
+Repo File: /etc/yum.repos.d/CentOS-Vault.repo
+Repo File: /etc/yum.repos.d/epel.repo
+
+Current Kernel: 2.6.32-573.el6.x86_64
+Kernel: kernel-headers-2.6.32-573.el6.x86_64
+Kernel: kernel-2.6.32-573.el6.x86_64
+Kernel: kernel-devel-2.6.32-573.el6.x86_64
+
+CIFS: 
+
+VAR CACHE YUM: 
+total 0
+
+FSTAB: 
+#
+# /etc/fstab
+# Created by anaconda on Tue Oct 27 04:06:40 2015
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=9d49ee75-aa9c-4e6c-9246-1ab526af6cf6 /                       ext4    defaults        1 1
+UUID=2932d9ef-527e-42f8-b057-b91e3511614b /boot                   ext4    defaults        1 2
+UUID=aeb72417-0090-428a-8df0-0eae29d9ffb3 swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+
+Disk Free:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        18G  2.5G   14G  16% /
+tmpfs           491M  228K  491M   1% /dev/shm
+/dev/sda1       283M   36M  232M  14% /boot
+.host:/         466G   98G  369G  21% /mnt/hgfs
+
+Copying directory /etc/sysconfig/network-scripts/
+/etc/sysconfig/network-scripts/ifcfg-eth0
+/etc/sysconfig/network-scripts/ifcfg-lo
+/etc/sysconfig/network-scripts/ifdown
+/etc/sysconfig/network-scripts/ifdown-bnep
+/etc/sysconfig/network-scripts/ifdown-eth
+/etc/sysconfig/network-scripts/ifdown-ib
+/etc/sysconfig/network-scripts/ifdown-ippp
+/etc/sysconfig/network-scripts/ifdown-ipv6
+/etc/sysconfig/network-scripts/ifdown-isdn
+/etc/sysconfig/network-scripts/ifdown-post
+/etc/sysconfig/network-scripts/ifdown-ppp
+/etc/sysconfig/network-scripts/ifdown-routes
+/etc/sysconfig/network-scripts/ifdown-sit
+/etc/sysconfig/network-scripts/ifdown-tunnel
+/etc/sysconfig/network-scripts/ifup
+/etc/sysconfig/network-scripts/ifup-aliases
+/etc/sysconfig/network-scripts/ifup-bnep
+/etc/sysconfig/network-scripts/ifup-eth
+/etc/sysconfig/network-scripts/ifup-ib
+/etc/sysconfig/network-scripts/ifup-ippp
+/etc/sysconfig/network-scripts/ifup-ipv6
+/etc/sysconfig/network-scripts/ifup-isdn
+/etc/sysconfig/network-scripts/ifup-plip
+/etc/sysconfig/network-scripts/ifup-plusb
+/etc/sysconfig/network-scripts/ifup-post
+/etc/sysconfig/network-scripts/ifup-ppp
+/etc/sysconfig/network-scripts/ifup-routes
+/etc/sysconfig/network-scripts/ifup-sit
+/etc/sysconfig/network-scripts/ifup-tunnel
+/etc/sysconfig/network-scripts/ifup-wireless
+/etc/sysconfig/network-scripts/init.ipv6-global
+/etc/sysconfig/network-scripts/net.hotplug
+/etc/sysconfig/network-scripts/network-functions
+/etc/sysconfig/network-scripts/network-functions-ipv6
+
